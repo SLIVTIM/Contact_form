@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact_Form</title>
+</head>
+<body>
+    <main>
+        <form>
+            <h1>Contact Us</h1>
+            <span class="first-line">
+                <div>
+                    <label for="First-name"><p>First Name</p></label>
+                    <input type="text" id="First-name"maxlength="10">
+                </div>
+                <div>
+                    <label for="Last-name"><p>Last Name</p></label>
+                    <input type="text" id="Last-name" maxlength="15">
+                </div>
+            </span>
+            <div class="second-line">
+                <label for="Email"><p>Email Address</p></label>
+                <input type="text" id="Email" maxlength="40">
+            </div>
+            <div class="third-line">
+                <p>Query Type</p>
+                <div class="option-container">
+                    <input class="option-1" type="button">
+                        <input class="indicator-1"></input>
+                        <div class="option-1-text">General Enquiry</div>
+                    </input>
+                    <input class="option-2" type="button">
+                        <input class="indicator-2"></input>
+                        <div class="option-2-text">Support Request</div>
+                    </input>
+                </div>
+            </div>
+            <div class="fourth-line">
+                <label for="message"><p>Message</p></label>
+                <textarea class="message" id="message" type="text" style="resize: none;" maxlength="520" rows="7"></textarea>
+            </div>
+            <div class="fifth-line">
+                <input type="checkbox" id="checkbox">
+                <p>I consent to being contacted by the team</p>
+            </div>
+            <button class="submit"><h4>submit</h4></button>
+        </form>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
